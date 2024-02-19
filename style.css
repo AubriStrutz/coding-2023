@@ -1,0 +1,40 @@
+a {
+    color:darkslategray;
+}
+header{
+    background-image: https://media.istockphoto.com/photos/moldy-bread-on-the-wooden-rustic-table-scarcity-picture-id1139885295?k=6&m=1139885295&s=612x612&w=0&h=ZNS8vkpB4JZUBiOCWp37WPpdLugJUjdz2JMKJim7ITk=;
+}
+footer,inverse {
+    color: beige;
+    background-color: rgb(25, 49, 49);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0%;
+    margin: 0%;
+}
+main{
+    display: flex;
+    flex: 1;
+}
+header{
+    text-align: center;
+}
+nav{
+    background-color:rgb(136, 160, 160);
+padding: 5px;
+}
+nav ul{
+    padding-left: 0%;
+}
+section{
+    flex: 1;
+    padding: 5px;
+text-align: center;
+}
+footer{
+    padding: 5px;
+}

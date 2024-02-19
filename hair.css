@@ -1,0 +1,58 @@
+header{
+    background-color: bisque;
+}
+footer{
+    background-color: bisque;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding:0%;
+    margin: 0%;
+}
+main{
+    display: flex;
+    flex: 1;
+}
+header{
+    text-align: center;
+}
+nav{
+    background-color: beige;
+    padding: 5px;
+}
+nav ul{
+    padding-left: 0%;
+}
+section{
+    flex: 1;
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+}
+section p{
+    text-align: left;
+}
+footer{
+    padding: 5px;
+}
+a{
+    color: black;
+}
+
+#post{
+    background-color: white;
+    margin: 64px 64px 64px 64px;
+    padding: 10px;
+    overflow: auto;
+    box-shadow: 0 0 10px #777777;
+}
+.amatic{
+font-family:'amatic SC'cursive;
+font-size: 200%;
+}
+.roman{
+    font-family: 'Times New Roman', cursive;
+    font-size: 200%;
+}
